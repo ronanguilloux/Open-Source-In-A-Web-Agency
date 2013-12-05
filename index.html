@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Open Source in Web Agency</title>
+
+        <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+        <meta name="author" content="Hakim El Hattab">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h2>The Fellowship of Code</h2>
+                    <img src="media/12.jpg" width="80%" height="80%" />
+                    <h4>Open Source in Web Agency</h4>
+                    <p>
+                        <small><a href="http://carcouet.paysdelaloire.e-lyco.fr/les-formations/post-bac/bts-services-informatiques-aux-organisations/">Carcouët BTS SIO SISR/SLAM</a>, December 6th, 2013</small></p>
+                </section>
+                <section>
+                    <h2 style="text-transform:lowercase;">/us</h2>
+                    <p>&nbsp;</p>
+                    <pre><code contenteditable>var lesPolypodes = {
+    "age": 8
+    , "count": 11
+    , "origin": "Nantes, France"
+    , "web": "lespolypodes.com"
+    , "twitter": "@lespolypodes"
+    , "open-source": "github.com/polypodes"
+    , "devlog": "lespolypodes.tumblr.com"
+    , "tags": [
+        "accessibility hacktivists"
+        , "web apps crafters"
+        , "public administration project managers"
+        , "open-minded fellows"
+        , "beers connoisseurs"
+    ]
+}
+</code></pre>
+                </section>
+                <section>
+                    <h2 style="text-transform:lowercase;">/me</h2>
+                    <p>&nbsp;</p>
+                    <pre><code contenteditable>var me = {
+    "user": "Ronan"
+    , "age": 35
+    , "origin": ""
+    , "twitter": "@arno_u_loginlux"
+    , "repo": "github.com/ronanguilloux"
+    , "work": "cto@lespolypodes.com"
+    , "devlog": "arnolog.net"
+    , "tags": [
+        "dad"
+        , "bearded open-source web developer"
+        , "J.R.R. Tolkien fan"
+    ]
+}
+</code></pre>
+                    <p><br>Web Artisan</p>
+                    <p><small>since 1999</small><p>
+                </section>
+                <section>
+                    <h3>What the hell</h3>
+                    <img src="media/25.jpg" width="80%" height="80%" />
+                    <h3>is Open-Source</h3>
+                    <aside class="notes">
+                        Termes piégés, compréhension très différentes, attente très différente,
+                        moyens très différent. Désigne attitude personnel, besoin des entreprise,
+                        un choix philosophique, quasi politique, limite religieux
+                    </aside>
+                </section>
+                <section>
+                    <h2>4 essential freedoms</h2>
+                    <p>&nbsp;</p>
+                    <ul>
+                        <li>0: run the program for any purpose</li>
+                        <li>1: study how it works, and change it</li>
+                        <li>2: redistribute copies</li>
+                        <li>3: improve and release to the public</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Freedom 0: The freedom to run the program for any purpose.</li>
+                            <li>Freedom 1: The freedom to study how the program works, and change it to make it do what you wish.</li>
+                            <li>Freedom 2: The freedom to redistribute copies so you can help your neighbor.</li>
+                            <li>Freedom 3: The freedom to improve the program, and release your improvements (and modified versions in general) to the public, so that the whole community benefits.</li>
+                        </ul>
+                        <p>Freedoms 1 and 3 require source code to be available because studying and modifying software without its source code can range from highly impractical to nearly impossible.</p>
+                        <p>Thus, free software means that computer users have the freedom to cooperate with whom they choose, and to control the software they use. To summarize this into a remark distinguishing libre (freedom) software from gratis (zero price) software, the Free Software Foundation says: "Free software is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech', not as in 'free beer'".[20] See Gratis versus libre.</p>
+
+                    </aside>
+                </section>
+                <section>
+                    <h2>Legal basis</h2>
+                    <ul>
+                        <li>Authoring
+                            </li><li>
+                            copyright & copyleft
+                            </li><li>
+                            licence choice
+                            </li><li>
+                            intellectual property rights
+                            </li><li>
+                            restrictions on distribution </li></ul>
+                    <aside class="notes">
+                        Les logiciels libres sont soumis, comme tout logiciel publié hors du domaine public, au droit d'auteur. Dans ce cadre, le droit d'auteur est exercé par le biais d'une licence libre qui énumère les droits que l'auteur choisit d'octroyer à l'utilisateur.
+                        Distinction entre licence et contrat qui existe en droit américain : une licence est une autorisation unilatérale, tandis qu'un contrat suppose des obligations réciproques. Les logiciels libres sont distribués avec de simples licences. Généralement, ils sont également distribués sans la moindre garantie.
+                        Certaines licences, dont la plus connue et utilisée pour les logiciels libres, la licence publique générale GNU, sont relativement complexes. Ainsi, la GPL ne donne le droit de redistribuer un logiciel que si l'ensemble du logiciel, y compris toutes les éventuelles modifications, sont redistribuées selon les termes exacts de la GPL. Cette licence a un caractère héréditaire car la fusion d'un logiciel sous GPL avec un logiciel non GPL, n'autorise la redistribution du logiciel fusionné que sous GPL.
+
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Copyleft Vs BSD</h2>
+                    <img src="media/56.jpg" width="70%" height="70%" />
+                    <p>&nbsp;</p>
+                    <p>Are you GNU/GPL or MIT?</p>
+                    <aside class="notes">
+                        COPYLEFT = Le copyleft est l'autorisation donnée par l'auteur d'un travail soumis au droit d'auteur (œuvre d'art, texte, programme informatique ou autre) d'utiliser, d'étudier, de modifier et de diffuser son œuvre, dans la mesure où cette autorisation reste préservée.
+                        L'auteur refuse donc que son travail puisse évoluer avec une restriction du droit à la copie. De ce fait, le contributeur apportant une modification (correction, ajout, réutilisation, etc.) est contraint de redistribuer ses propres contributions avec les mêmes conditions d'utilisation que l'original. Autrement dit, les créations réalisées à partir d'éléments sous copyleft héritent de facto ce copyleft.
+                        BSD = Il s'agit d'un type de licence imposant peu de contraintes; cependant, ce type de licence ne protège pas contre les restrictions. En général, seule la citation des auteurs originaux est demandée. En particulier, ces licences permettent de redistribuer un logiciel libre sous une forme non libre. Ces licences permettent donc à tout acteur de changer la licence sous laquelle le logiciel est distribué. Un cas de changement de licence courant est l'intégration de logiciel sous licence BSD dans un logiciel sous copyleft (licence GPL). Un autre cas courant est l'intégration de logiciel sous licence BSD dans les logiciels propriétaires.
+                    </aside>
+                </section>
+                <section>
+                    <h2>Security ?</h2>
+                    <img src="media/26.jpg" width="70%" height="70%" />
+                    <p>[Your boss:] "Are open-source softwares</p>
+                    <p>more <i>secure</i> than closed ones?"<p>
+                    <aside class="notes">
+                        <p>La sécurité relative des logiciels libres et propriétaires est sujette à débat.</p>
+                        <p>le libre accès au code source permet l'examen du logiciel par des experts indépendants a</p>;
+                        <p>le libre accès au code source rend impossible le recours à la sécurité par l'obscurité, ce qui est considéré comme un avantage ou un défaut, selon le point de vue ;</p>
+                        <p>la découverte de failles de sécurité est facilitée par la publication du code source. En effet, l'ouverture du code permet statistiquement à un plus grand nombre de personnes d'avoir la possibilité de repérer et de corriger des vulnérabilités.</p>
+                        <p>Le logiciel libre n'est pas sécurisé par nature,
+                            mais s'il rencontre un succès d'estime et un usage large,
+                            alors il présente des gages de sécurité</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Looking for an adventure?</h3>
+                    <img src="media/33.jpg" width="70%" height="70%" />
+                </section>
+                <section>
+                    <h3>READ code lines from Open-Source</h3>
+                    <img src="media/35.jpg" width="70%" height="70%" />
+                    <p>100% benefit each time</p>
+                </section>
+                <section>
+                    <h2>Choose a playground</h2>
+                    <img src="media/58.jpg" width="70%" height="70%" />
+                    <p>Start small. Maintain the fun.</p>
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h2>Share early, share often</h2>
+                    <img src="media/23.png" width="80%" height="80%" />
+                </section>
+                <section>
+                    <h2>Expect Feedbacks</h2>
+                    <img src="media/63.jpg" width="60%" height="60%" />
+                    <p>of any kind.</p>
+                </section>
+                <section>
+                    <h3>How we choose an open-source project?</h3>
+                    <img src="media/30.jpg" width="70%" height="70%" />
+                    <p>Good advices from the trenches</p>
+                </section>
+                <section>
+                    <h3>Ask the Ancients</h3>
+                    <img src="media/60.jpg" width="70%" height="70%" />
+                    <p>In the past, they fought the same ennemies.</p>
+                </section>
+                <section>
+                    <h3>Always evaluate the activity</h3>
+                    <img src="media/10.jpg" width="70%" height="70%" />
+                </section>
+                <section>
+                    <h3>Avoid one-man projects</h3>
+                    <img src="media/9.jpg" width="70%" height="70%" />
+                    <p>unpopular projects, cloistered environments, ivory towers</p>
+                </section>
+                <section>
+                    <h3>DRY, KISS, SOLID</h3>
+                    <img src="media/62.jpg" width="50%" height="70%" />
+                    <p>Please learn this words.</p>
+                    <aside class="notes">
+                        <p>Don't repeat yourself</p>
+                        <p>Keep it stupid simple</p>
+                        <p>Single responsibility principle</p>
+                        <p>a class should have only a single responsibility.</p>
+                        <p>Open/closed principle</p>
+                        <p>“software entities … should be open for extension, but closed for modification”.</p>
+                        <p>Liskov substitution principle</p>
+                        <p> “objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program”. See also design by contract.</p>
+                        <p> Interface segregation principle</p>
+                        <p> “many client-specific interfaces are better than one general-purpose interface.”</p>
+                        <p>Dependency inversion principle</p>
+                        <p>one should “Depend upon Abstractions. Do not depend upon concretions.”
+                            Dependency injection is one method of following this principle.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Send contributions!</h3>
+                    <img src="media/21.jpg" width="70%" height="70%" />
+                    <p>Great open-source developers<br>always grant contributors</p>
+                </section>
+                <section>
+                    <h3>Respect processes</h3>
+                    <img src="media/61.gif" width="70%" height="70%" />
+                    <p>keep familiar with others traditions</p>
+                </section>
+                <section>
+                    <h3>Don't be afraid of failure</h3>
+                    <img src="media/64.jpg" width="70%" height="70%" />
+                    <p>Fail fast, fail early, fail early.</p>
+                </section>
+                <section>
+                    <h3>&amp; stay away from the trolls</h3>
+                    <img src="media/65.jpg" width="70%" height="70%" />
+                    <p>Related: auto-proclamed gurus, peremptory talks, pedantry, etc.</h3>
+                </section>
+                <section>
+                    <h3>Attend to open-source events & conference</h3>
+                    <img src="media/43.jpg" width="70%" height="70%" />
+                    <p>don't miss the opportunity for a relaxing drink</p>
+                </section>
+                <section>
+                    <h3>And then, after all...</h3>
+                </section>
+                <section>
+                    <h3>Be hired.</h3>
+                    <img src="media/36.jpg" width="70%" height="70%" />
+                    <p>Be evaluated on what you've shared</p>
+                </section>
+
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
